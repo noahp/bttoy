@@ -1,0 +1,248 @@
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 3/14/2015 12:51:57 PM
+
+BeginCmp
+TimeStamp = /54EFD3D0;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = kicadlib:SMD_0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55200;
+Reference = C2;
+ValeurCmp = 30uF;
+IdModule  = kicadlib:SMD_5X5.2_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F4F68E;
+Reference = C3;
+ValeurCmp = 10uF/16V;
+IdModule  = kicadlib:SMD_0805_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFD734;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = kicadlib:SMD_0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F4F2D9;
+Reference = C5;
+ValeurCmp = 2.2uF/10V;
+IdModule  = kicadlib:SMD_0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFC2D7;
+Reference = C6;
+ValeurCmp = 4.7uF;
+IdModule  = kicadlib:SMD_0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFC66F;
+Reference = C7;
+ValeurCmp = 4.7uF;
+IdModule  = kicadlib:SMD_0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F4F768;
+Reference = D1;
+ValeurCmp = 40v/1A;
+IdModule  = kicadlib:SMD_1206_DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFC330;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = kicadlib:SMD_0603_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /55048124;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = kicadlib:SMD_0603_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /550484F4;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = kicadlib:SMD_0603_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5504858D;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = kicadlib:SMD_0603_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5497803A;
+Reference = J1;
+ValeurCmp = USB-micro-b;
+IdModule  = kicadlib:usb_micro_b_smt;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F00275;
+Reference = J2;
+ValeurCmp = HC-07_BLUETOOTH;
+IdModule  = kicadlib:HC-07_bluetooth;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFE33F;
+Reference = J3;
+ValeurCmp = ARM_10PIN;
+IdModule  = kicadlib:ARM_10_PIN_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F516F3;
+Reference = JP1;
+ValeurCmp = MPS ENABLE;
+IdModule  = kicadlib:jmp_small;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F4EDC2;
+Reference = L1;
+ValeurCmp = 10uH/650mA (LQH43CN100K03);
+IdModule  = kicadlib:SMD_4x4_INDUCTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FCC050;
+Reference = P1;
+ValeurCmp = +9V_DBG;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FC793F;
+Reference = P2;
+ValeurCmp = M1+;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FC7D5F;
+Reference = P3;
+ValeurCmp = M1-;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FC7D8F;
+Reference = P4;
+ValeurCmp = M2+;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FC7DC0;
+Reference = P5;
+ValeurCmp = M2-;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F4FB8E;
+Reference = R1;
+ValeurCmp = 6.2K;
+IdModule  = kicadlib:SMD_0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F5000A;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = kicadlib:SMD_0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFC2B0;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = kicadlib:SMD_0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFC5FD;
+Reference = R4;
+ValeurCmp = 2K;
+IdModule  = kicadlib:SMD_0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /5504817F;
+Reference = R5;
+ValeurCmp = 1K;
+IdModule  = kicadlib:SMD_0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /550484FA;
+Reference = R6;
+ValeurCmp = 1K;
+IdModule  = kicadlib:SMD_0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /55048593;
+Reference = R7;
+ValeurCmp = 1K;
+IdModule  = kicadlib:SMD_0603_R;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F51E0E;
+Reference = SW1;
+ValeurCmp = SPDT (Apem MHSS1105);
+IdModule  = kicadlib:TH_APEM_MHSS1105_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5497812B;
+Reference = U1;
+ValeurCmp = AAT3221/MIC5504;
+IdModule  = kicadlib:SMD_SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F4E7D2;
+Reference = U2;
+ValeurCmp = MIC2288;
+IdModule  = kicadlib:SMD_SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54977F63;
+Reference = U3;
+ValeurCmp = MCP73831;
+IdModule  = kicadlib:SMD_SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54977F03;
+Reference = U4;
+ValeurCmp = MKL05Z32VLC4;
+IdModule  = kicadlib:SMD_LQFP-32;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FC62AA;
+Reference = U5;
+ValeurCmp = LV8548;
+IdModule  = kicadlib:SMD_SOIC-10NB;
+EndCmp
+
+EndListe
