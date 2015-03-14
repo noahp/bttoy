@@ -15,3 +15,6 @@ http://www.mouser.com/ProductDetail/Bourns/SRN4012T-100M/?qs=sGAEpiMZZMsg%252by3
 
 switch  
 http://www.mouser.com/ProductDetail/Apem/MHSS1105/?qs=sGAEpiMZZMtHXLepoqNyVYxFoZ6bbHER8MOeX4eGSrE%3d
+
+motor ic  
+http://www.mouser.com/ProductDetail/ON-Semiconductor/LV8548MC-AH/?qs=sGAEpiMZZMuleuVm2ofeX1ZeyMQNcmgu
