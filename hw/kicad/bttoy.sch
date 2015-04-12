@@ -483,9 +483,9 @@ Text Label 2250 1350 2    60   ~ 0
 bt_rx
 Text Label 2250 1200 2    60   ~ 0
 bt_tx
-Text Label 6600 3150 3    60   ~ 0
+Text Label 7650 1500 0    60   ~ 0
 bt_rx
-Text Label 6750 3150 3    60   ~ 0
+Text Label 7650 1650 0    60   ~ 0
 bt_tx
 Text Label 6300 5950 2    60   ~ 0
 motor_1_A
@@ -742,21 +742,17 @@ Wire Wire Line
 	5400 1950 5500 1950
 Connection ~ 5400 1800
 Wire Notes Line
-	6550 3400 6550 3600
+	7900 1450 8100 1450
 Wire Notes Line
-	6550 3600 6600 3550
+	8100 1450 8050 1400
 Wire Notes Line
-	6550 3600 6500 3550
-Wire Wire Line
-	6600 3150 6600 3050
+	8100 1450 8050 1500
 Wire Notes Line
-	6750 3600 6750 3400
+	8100 1650 7900 1650
 Wire Notes Line
-	6750 3400 6700 3450
+	7900 1650 7950 1700
 Wire Notes Line
-	6750 3400 6800 3450
-Wire Wire Line
-	6750 3150 6750 3050
+	7900 1650 7950 1600
 Wire Wire Line
 	6300 5800 6400 5800
 Wire Wire Line
@@ -981,17 +977,9 @@ Wire Wire Line
 	7650 2550 7550 2550
 NoConn ~ 7050 3050
 NoConn ~ 6900 3050
-NoConn ~ 6450 3050
-NoConn ~ 6300 3050
-NoConn ~ 6150 3050
-NoConn ~ 6000 3050
-NoConn ~ 5500 2550
-NoConn ~ 5500 2400
 NoConn ~ 7550 2100
 NoConn ~ 7550 1950
 NoConn ~ 7550 1800
-NoConn ~ 7550 1650
-NoConn ~ 7550 1500
 NoConn ~ 7050 1000
 NoConn ~ 6900 1000
 NoConn ~ 6750 1000
@@ -999,4 +987,34 @@ NoConn ~ 6600 1000
 NoConn ~ 6450 1000
 NoConn ~ 5500 1500
 NoConn ~ 5500 1650
+Text Label 6300 3150 3    60   ~ 0
+motor_1_B
+Text Label 6000 3150 3    60   ~ 0
+motor_2_B
+Wire Wire Line
+	6000 3150 6000 3050
+Wire Wire Line
+	6150 3050 6150 3150
+Text Label 6150 3150 3    60   ~ 0
+motor_2_A
+Text Label 6450 3150 3    60   ~ 0
+motor_1_A
+Wire Wire Line
+	6300 3150 6300 3050
+Wire Wire Line
+	6450 3050 6450 3150
+Text Label 5400 2400 2    60   ~ 0
+i2c_scl
+Text Label 5400 2550 2    60   ~ 0
+i2c_scl
+Wire Wire Line
+	5400 2550 5500 2550
+Wire Wire Line
+	5500 2400 5400 2400
+NoConn ~ 6750 3050
+NoConn ~ 6600 3050
+Wire Wire Line
+	7550 1500 7650 1500
+Wire Wire Line
+	7650 1650 7550 1650
 $EndSCHEMATC
