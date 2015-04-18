@@ -70,12 +70,12 @@ $EndComp
 $Comp
 L USB-micro-b J1
 U 1 1 5497803A
-P 1100 1200
-F 0 "J1" H 1100 600 60  0000 C CNN
-F 1 "USB-micro-b" H 1100 1850 60  0000 C CNN
-F 2 "kicadlib:usb_micro_b_smt" H 1100 1200 60  0001 C CNN
-F 3 "" H 1100 1200 60  0000 C CNN
-	1    1100 1200
+P 1150 2250
+F 0 "J1" H 1150 1650 60  0000 C CNN
+F 1 "USB-micro-b" H 1150 2900 60  0000 C CNN
+F 2 "kicadlib:usb_micro_b_smt" H 1150 2250 60  0001 C CNN
+F 3 "" H 1150 2250 60  0000 C CNN
+	1    1150 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -89,9 +89,9 @@ F 3 "" H 1900 4450 60  0000 C CNN
 	1    1900 4450
 	1    0    0    -1  
 $EndComp
-Text Label 6300 6250 2    60   ~ 0
+Text Label 7300 6250 2    60   ~ 0
 motor_2_A
-Text Label 6300 6400 2    60   ~ 0
+Text Label 7300 6400 2    60   ~ 0
 motor_2_B
 $Comp
 L R R3
@@ -172,20 +172,20 @@ F 3 "" H 5900 4900 60  0000 C CNN
 $EndComp
 Text Label 4150 4150 2    60   ~ 0
 usb_vbus
-Text Label 1500 800  0    60   ~ 0
+Text Label 1550 1850 0    60   ~ 0
 usb_vbus
-NoConn ~ 1400 950 
-NoConn ~ 1400 1100
-NoConn ~ 1400 1250
+NoConn ~ 1450 2000
+NoConn ~ 1450 2150
+NoConn ~ 1450 2300
 $Comp
 L GND #PWR03
 U 1 1 54EFD0DA
-P 1500 1650
-F 0 "#PWR03" H 1500 1650 30  0001 C CNN
-F 1 "GND" H 1500 1580 30  0001 C CNN
-F 2 "" H 1500 1650 60  0000 C CNN
-F 3 "" H 1500 1650 60  0000 C CNN
-	1    1500 1650
+P 1550 2700
+F 0 "#PWR03" H 1550 2700 30  0001 C CNN
+F 1 "GND" H 1550 2630 30  0001 C CNN
+F 2 "" H 1550 2700 60  0000 C CNN
+F 3 "" H 1550 2700 60  0000 C CNN
+	1    1550 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -291,11 +291,11 @@ NoConn ~ 9150 1700
 NoConn ~ 9200 1850
 Text Notes 5200 5150 0    60   ~ 0
 Lipo Charger
-Text Notes 1550 5100 0    60   ~ 0
+Text Notes 1550 5000 0    60   ~ 0
 Logic Power Supply
 Text Notes 9350 2650 0    60   ~ 0
 Debug Header
-Text Notes 750  1950 0    60   ~ 0
+Text Notes 800  3000 0    60   ~ 0
 USB Connector
 $Comp
 L HC-07_BLUETOOTH J2
@@ -462,7 +462,7 @@ F 3 "" H 2250 3100 60  0000 C CNN
 	1    2250 3100
 	-1   0    0    -1  
 $EndComp
-Text Notes 2250 7850 0    60   ~ 0
+Text Notes 1850 7800 0    60   ~ 0
 Motor Power Supply (MPS)
 Text Label 1000 6050 2    60   ~ 0
 +9V
@@ -487,84 +487,84 @@ Text Label 7650 1500 0    60   ~ 0
 bt_rx
 Text Label 7650 1650 0    60   ~ 0
 bt_tx
-Text Label 6300 5950 2    60   ~ 0
+Text Label 7300 5950 2    60   ~ 0
 motor_1_A
-Text Label 6300 6100 2    60   ~ 0
+Text Label 7300 6100 2    60   ~ 0
 motor_1_B
 $Comp
 L LV8548 U5
 U 1 1 54FC62AA
-P 6900 6050
-F 0 "U5" H 6900 5600 60  0000 C CNN
-F 1 "LV8548" H 6900 6400 60  0000 C CNN
-F 2 "kicadlib:SMD_SOIC-10NB" H 6800 6050 60  0001 C CNN
-F 3 "" H 6800 6050 60  0000 C CNN
-	1    6900 6050
+P 7900 6050
+F 0 "U5" H 7900 5600 60  0000 C CNN
+F 1 "LV8548" H 7900 6400 60  0000 C CNN
+F 2 "kicadlib:SMD_SOIC-10NB" H 7800 6050 60  0001 C CNN
+F 3 "" H 7800 6050 60  0000 C CNN
+	1    7900 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR012
 U 1 1 54FC64F5
-P 7550 6500
-F 0 "#PWR012" H 7550 6500 30  0001 C CNN
-F 1 "GND" H 7550 6430 30  0001 C CNN
-F 2 "" H 7550 6500 60  0000 C CNN
-F 3 "" H 7550 6500 60  0000 C CNN
-	1    7550 6500
+P 8550 6500
+F 0 "#PWR012" H 8550 6500 30  0001 C CNN
+F 1 "GND" H 8550 6430 30  0001 C CNN
+F 2 "" H 8550 6500 60  0000 C CNN
+F 3 "" H 8550 6500 60  0000 C CNN
+	1    8550 6500
 	1    0    0    -1  
 $EndComp
-Text Label 6300 5800 2    60   ~ 0
+Text Label 7300 5800 2    60   ~ 0
 +9V
 $Comp
-L TST P2
+L TST P10
 U 1 1 54FC793F
-P 7650 5550
-F 0 "P2" H 7650 5850 40  0000 C CNN
-F 1 "M1+" H 7650 5800 30  0000 C CNN
-F 2 "kicadlib:TEST_0.100" H 7650 5550 60  0001 C CNN
-F 3 "" H 7650 5550 60  0000 C CNN
-	1    7650 5550
+P 8650 5550
+F 0 "P10" H 8650 5850 40  0000 C CNN
+F 1 "M1+" H 8650 5800 30  0000 C CNN
+F 2 "kicadlib:TEST_0.100" H 8650 5550 60  0001 C CNN
+F 3 "" H 8650 5550 60  0000 C CNN
+	1    8650 5550
 	1    0    0    -1  
 $EndComp
-Text Label 7750 5550 0    60   ~ 0
+Text Label 8750 5550 0    60   ~ 0
 motor_1_+
-Text Label 7750 5950 0    60   ~ 0
+Text Label 8750 5950 0    60   ~ 0
 motor_1_-
-Text Label 8500 6050 0    60   ~ 0
+Text Label 9500 6050 0    60   ~ 0
 motor_2_+
-Text Label 8500 6450 0    60   ~ 0
+Text Label 9500 6450 0    60   ~ 0
 motor_2_-
 $Comp
-L TST P3
+L TST P11
 U 1 1 54FC7D5F
-P 7650 5950
-F 0 "P3" H 7650 6250 40  0000 C CNN
-F 1 "M1-" H 7650 6200 30  0000 C CNN
-F 2 "kicadlib:TEST_0.100" H 7650 5950 60  0001 C CNN
-F 3 "" H 7650 5950 60  0000 C CNN
-	1    7650 5950
+P 8650 5950
+F 0 "P11" H 8650 6250 40  0000 C CNN
+F 1 "M1-" H 8650 6200 30  0000 C CNN
+F 2 "kicadlib:TEST_0.100" H 8650 5950 60  0001 C CNN
+F 3 "" H 8650 5950 60  0000 C CNN
+	1    8650 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L TST P4
+L TST P12
 U 1 1 54FC7D8F
-P 8400 6050
-F 0 "P4" H 8400 6350 40  0000 C CNN
-F 1 "M2+" H 8400 6300 30  0000 C CNN
-F 2 "kicadlib:TEST_0.100" H 8400 6050 60  0001 C CNN
-F 3 "" H 8400 6050 60  0000 C CNN
-	1    8400 6050
+P 9400 6050
+F 0 "P12" H 9400 6350 40  0000 C CNN
+F 1 "M2+" H 9400 6300 30  0000 C CNN
+F 2 "kicadlib:TEST_0.100" H 9400 6050 60  0001 C CNN
+F 3 "" H 9400 6050 60  0000 C CNN
+	1    9400 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L TST P5
+L TST P13
 U 1 1 54FC7DC0
-P 8400 6450
-F 0 "P5" H 8400 6750 40  0000 C CNN
-F 1 "M2-" H 8400 6700 30  0000 C CNN
-F 2 "kicadlib:TEST_0.100" H 8400 6450 60  0001 C CNN
-F 3 "" H 8400 6450 60  0000 C CNN
-	1    8400 6450
+P 9400 6450
+F 0 "P13" H 9400 6750 40  0000 C CNN
+F 1 "M2-" H 9400 6700 30  0000 C CNN
+F 2 "kicadlib:TEST_0.100" H 9400 6450 60  0001 C CNN
+F 3 "" H 9400 6450 60  0000 C CNN
+	1    9400 6450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -602,14 +602,14 @@ Wire Wire Line
 	6350 4800 6350 4550
 Connection ~ 6100 4800
 Wire Wire Line
-	1400 800  1500 800 
+	1450 1850 1550 1850
 Wire Wire Line
-	1500 1400 1500 1650
+	1550 2450 1550 2700
 Wire Wire Line
-	1500 1550 1400 1550
+	1550 2600 1450 2600
 Wire Wire Line
-	1400 1400 1500 1400
-Connection ~ 1500 1550
+	1450 2450 1550 2450
+Connection ~ 1550 2600
 Wire Wire Line
 	2450 4200 2950 4200
 Wire Wire Line
@@ -754,43 +754,43 @@ Wire Notes Line
 Wire Notes Line
 	7900 1650 7950 1600
 Wire Wire Line
-	6300 5800 6400 5800
+	7300 5800 7400 5800
 Wire Wire Line
-	7450 6400 7550 6400
+	8450 6400 8550 6400
 Wire Wire Line
-	7550 6400 7550 6500
+	8550 6400 8550 6500
 Wire Wire Line
-	6300 5950 6400 5950
+	7300 5950 7400 5950
 Wire Wire Line
-	6300 6100 6400 6100
+	7300 6100 7400 6100
 Wire Wire Line
-	6400 6250 6300 6250
+	7400 6250 7300 6250
 Wire Wire Line
-	6300 6400 6400 6400
+	7300 6400 7400 6400
 Wire Wire Line
-	7450 5800 7550 5800
+	8450 5800 8550 5800
 Wire Wire Line
-	7550 5800 7550 5550
+	8550 5800 8550 5550
 Wire Wire Line
-	7550 5550 7750 5550
+	8550 5550 8750 5550
 Wire Wire Line
-	7450 5950 7750 5950
+	8450 5950 8750 5950
 Wire Wire Line
-	7450 6100 8200 6100
+	8450 6100 9200 6100
 Wire Wire Line
-	8200 6100 8200 6050
+	9200 6100 9200 6050
 Wire Wire Line
-	8200 6050 8500 6050
+	9200 6050 9500 6050
 Wire Wire Line
-	7450 6250 8200 6250
+	8450 6250 9200 6250
 Wire Wire Line
-	8200 6250 8200 6450
+	9200 6250 9200 6450
 Wire Wire Line
-	8200 6450 8500 6450
-Connection ~ 7650 5550
-Connection ~ 8400 6050
-Connection ~ 7650 5950
-Connection ~ 8400 6450
+	9200 6450 9500 6450
+Connection ~ 8650 5550
+Connection ~ 9400 6050
+Connection ~ 8650 5950
+Connection ~ 9400 6450
 Wire Wire Line
 	2350 3000 2250 3000
 Wire Wire Line
@@ -857,7 +857,7 @@ NoConn ~ 3300 3500
 NoConn ~ 3450 3500
 NoConn ~ 3600 3500
 NoConn ~ 3750 3500
-Text Notes 6600 5450 0    60   ~ 0
+Text Notes 7600 5450 0    60   ~ 0
 Motor Control
 $Comp
 L LED D3
@@ -975,8 +975,6 @@ Wire Wire Line
 	7550 2400 7650 2400
 Wire Wire Line
 	7650 2550 7550 2550
-NoConn ~ 7050 3050
-NoConn ~ 6900 3050
 NoConn ~ 7550 2100
 NoConn ~ 7550 1950
 NoConn ~ 7550 1800
@@ -987,34 +985,179 @@ NoConn ~ 6600 1000
 NoConn ~ 6450 1000
 NoConn ~ 5500 1500
 NoConn ~ 5500 1650
-Text Label 6300 3150 3    60   ~ 0
+Text Label 6600 3150 3    60   ~ 0
 motor_1_B
-Text Label 6000 3150 3    60   ~ 0
+Text Label 6300 3150 3    60   ~ 0
 motor_2_B
-Wire Wire Line
-	6000 3150 6000 3050
-Wire Wire Line
-	6150 3050 6150 3150
-Text Label 6150 3150 3    60   ~ 0
-motor_2_A
-Text Label 6450 3150 3    60   ~ 0
-motor_1_A
 Wire Wire Line
 	6300 3150 6300 3050
 Wire Wire Line
 	6450 3050 6450 3150
+Text Label 6450 3150 3    60   ~ 0
+motor_2_A
+Text Label 6750 3150 3    60   ~ 0
+motor_1_A
+Wire Wire Line
+	6600 3150 6600 3050
+Wire Wire Line
+	6750 3050 6750 3150
 Text Label 5400 2400 2    60   ~ 0
 i2c_scl
 Text Label 5400 2550 2    60   ~ 0
-i2c_scl
+i2c_sda
 Wire Wire Line
 	5400 2550 5500 2550
 Wire Wire Line
 	5500 2400 5400 2400
-NoConn ~ 6750 3050
-NoConn ~ 6600 3050
 Wire Wire Line
 	7550 1500 7650 1500
 Wire Wire Line
 	7650 1650 7550 1650
+Text Label 6900 3150 3    60   ~ 0
+spi_mosi
+Text Label 6150 3150 3    60   ~ 0
+acc_spi_miso
+Text Label 7050 3150 3    60   ~ 0
+spi_sclk
+Text Label 6000 3150 3    60   ~ 0
+spi_ss
+Wire Wire Line
+	6000 3150 6000 3050
+Wire Wire Line
+	6150 3050 6150 3150
+Wire Wire Line
+	7050 3150 7050 3050
+Wire Wire Line
+	6900 3050 6900 3150
+$Comp
+L TST P6
+U 1 1 55327637
+P 5450 6150
+F 0 "P6" H 5450 6450 40  0000 C CNN
+F 1 "spi_mosi" H 5450 6400 30  0000 C CNN
+F 2 "kicadlib:TEST_0.100" H 5450 6150 60  0001 C CNN
+F 3 "" H 5450 6150 60  0000 C CNN
+	1    5450 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P5
+U 1 1 55327834
+P 5250 6150
+F 0 "P5" H 5250 6450 40  0000 C CNN
+F 1 "spi_miso" H 5250 6400 30  0000 C CNN
+F 2 "kicadlib:TEST_0.100" H 5250 6150 60  0001 C CNN
+F 3 "" H 5250 6150 60  0000 C CNN
+	1    5250 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P4
+U 1 1 553278C8
+P 5050 6150
+F 0 "P4" H 5050 6450 40  0000 C CNN
+F 1 "spi_ss" H 5050 6400 30  0000 C CNN
+F 2 "kicadlib:TEST_0.100" H 5050 6150 60  0001 C CNN
+F 3 "" H 5050 6150 60  0000 C CNN
+	1    5050 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P7
+U 1 1 55327965
+P 5650 6150
+F 0 "P7" H 5650 6450 40  0000 C CNN
+F 1 "spi_clk" H 5650 6400 30  0000 C CNN
+F 2 "kicadlib:TEST_0.100" H 5650 6150 60  0001 C CNN
+F 3 "" H 5650 6150 60  0000 C CNN
+	1    5650 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P2
+U 1 1 55327A56
+P 4500 6150
+F 0 "P2" H 4500 6450 40  0000 C CNN
+F 1 "i2c_sda" H 4500 6400 30  0000 C CNN
+F 2 "kicadlib:TEST_0.100" H 4500 6150 60  0001 C CNN
+F 3 "" H 4500 6150 60  0000 C CNN
+	1    4500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P3
+U 1 1 55327B09
+P 4700 6150
+F 0 "P3" H 4700 6450 40  0000 C CNN
+F 1 "i2c_scl" H 4700 6400 30  0000 C CNN
+F 2 "kicadlib:TEST_0.100" H 4700 6150 60  0001 C CNN
+F 3 "" H 4700 6150 60  0000 C CNN
+	1    4700 6150
+	1    0    0    -1  
+$EndComp
+Text Label 4700 6250 3    60   ~ 0
+i2c_scl
+Text Label 4500 6250 3    60   ~ 0
+i2c_sda
+Wire Wire Line
+	4500 6250 4500 6150
+Wire Wire Line
+	4700 6150 4700 6250
+Text Label 5250 6250 3    60   ~ 0
+spi_miso
+Text Label 5050 6250 3    60   ~ 0
+spi_ss
+Text Label 5450 6250 3    60   ~ 0
+spi_mosi
+Text Label 5650 6250 3    60   ~ 0
+spi_sclk
+Wire Wire Line
+	5050 6250 5050 6150
+Wire Wire Line
+	5250 6150 5250 6250
+Wire Wire Line
+	5450 6250 5450 6150
+Wire Wire Line
+	5650 6150 5650 6250
+$Comp
+L TST P8
+U 1 1 55329B57
+P 6000 6150
+F 0 "P8" H 6000 6450 40  0000 C CNN
+F 1 "+3.3v" H 6000 6400 30  0000 C CNN
+F 2 "kicadlib:TEST_0.100" H 6000 6150 60  0001 C CNN
+F 3 "" H 6000 6150 60  0000 C CNN
+	1    6000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TST P9
+U 1 1 55329C7E
+P 6200 6150
+F 0 "P9" H 6200 6450 40  0000 C CNN
+F 1 "gnd" H 6200 6400 30  0000 C CNN
+F 2 "kicadlib:TEST_0.100" H 6200 6150 60  0001 C CNN
+F 3 "" H 6200 6150 60  0000 C CNN
+	1    6200 6150
+	1    0    0    -1  
+$EndComp
+Text Label 6000 6250 3    60   ~ 0
++3.3v
+$Comp
+L GND #PWR016
+U 1 1 5532A219
+P 6200 6250
+F 0 "#PWR016" H 6200 6250 30  0001 C CNN
+F 1 "GND" H 6200 6180 30  0001 C CNN
+F 2 "" H 6200 6250 60  0000 C CNN
+F 3 "" H 6200 6250 60  0000 C CNN
+	1    6200 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 6250 6200 6150
+Wire Wire Line
+	6000 6150 6000 6250
+Text Notes 4850 6800 0    60   ~ 0
+Accessory Connections
 $EndSCHEMATC

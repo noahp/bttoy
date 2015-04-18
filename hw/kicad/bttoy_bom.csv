@@ -1,0 +1,44 @@
+Value,Ref,Footprint
+MKL05Z32VLC4,U4,kicadlib:SMD_LQFP-32
+MCP73831,U3,kicadlib:SMD_SOT23-5
+USB-micro-b,J1,kicadlib:usb_micro_b_smt
+AAT3221/MIC5504,U1,kicadlib:SMD_SOT23-5
+1K,R3,kicadlib:SMD_0603_R
+4.7uF,C6,kicadlib:SMD_0603_R
+LED,D2,kicadlib:SMD_0603_LED
+2K,R4,kicadlib:SMD_0603_R
+4.7uF,C7,kicadlib:SMD_0603_R
+1uF,C1,kicadlib:SMD_0603_R
+1uF,C4,kicadlib:SMD_0603_R
+ARM_10PIN,J3,kicadlib:ARM_10_PIN_SMT
+HC-07_BLUETOOTH,J2,kicadlib:HC-07_bluetooth
+MIC2288,U2,kicadlib:SMD_SOT23-5
+10uH/650mA (LQH43CN100K03),L1,kicadlib:SMD_4x4_INDUCTOR
+2.2uF/10V,C5,kicadlib:SMD_0603_R
+10uF/16V,C3,kicadlib:SMD_0805_R
+40v/1A,D1,kicadlib:SMD_1206_DIODE
+6.2K,R1,kicadlib:SMD_0603_R
+1K,R2,kicadlib:SMD_0603_R
+MPS ENABLE,JP1,kicadlib:jmp_small
+SPDT (Apem MHSS1105),SW1,kicadlib:TH_APEM_MHSS1105_SPDT
+30uF,C2,kicadlib:SMD_5X5.2_CAP
+LV8548,U5,kicadlib:SMD_SOIC-10NB
+M1+,P10,kicadlib:TEST_0.100
+M1-,P11,kicadlib:TEST_0.100
+M2+,P12,kicadlib:TEST_0.100
+M2-,P13,kicadlib:TEST_0.100
++9V_DBG,P1,kicadlib:TEST_0.100
+LED,D3,kicadlib:SMD_0603_LED
+1K,R5,kicadlib:SMD_0603_R
+LED,D4,kicadlib:SMD_0603_LED
+1K,R6,kicadlib:SMD_0603_R
+LED,D5,kicadlib:SMD_0603_LED
+1K,R7,kicadlib:SMD_0603_R
+spi_mosi,P6,kicadlib:TEST_0.100
+spi_miso,P5,kicadlib:TEST_0.100
+spi_ss,P4,kicadlib:TEST_0.100
+spi_clk,P7,kicadlib:TEST_0.100
+i2c_sda,P2,kicadlib:TEST_0.100
+i2c_scl,P3,kicadlib:TEST_0.100
++3.3v,P8,kicadlib:TEST_0.100
+gnd,P9,kicadlib:TEST_0.100
