@@ -42,3 +42,5 @@ i2c_sda,P2,kicadlib:TEST_0.100
 i2c_scl,P3,kicadlib:TEST_0.100
 +3.3v,P8,kicadlib:TEST_0.100
 gnd,P9,kicadlib:TEST_0.100
+B-,P14,kicadlib:TEST_0.100
+B+,P15,kicadlib:TEST_0.100
