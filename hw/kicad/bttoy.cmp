@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 3/14/2015 12:51:57 PM
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 4/21/2015 6:14:41 PM
 
 BeginCmp
 TimeStamp = /54EFD3D0;
@@ -127,29 +127,85 @@ IdModule  = kicadlib:TEST_0.100;
 EndCmp
 
 BeginCmp
-TimeStamp = /54FC793F;
+TimeStamp = /55327A56;
 Reference = P2;
+ValeurCmp = i2c_sda;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /55327B09;
+Reference = P3;
+ValeurCmp = i2c_scl;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /553278C8;
+Reference = P4;
+ValeurCmp = spi_ss;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /55327834;
+Reference = P5;
+ValeurCmp = spi_miso;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /55327637;
+Reference = P6;
+ValeurCmp = spi_mosi;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /55327965;
+Reference = P7;
+ValeurCmp = spi_clk;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /55329B57;
+Reference = P8;
+ValeurCmp = +3.3v;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /55329C7E;
+Reference = P9;
+ValeurCmp = gnd;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FC793F;
+Reference = P10;
 ValeurCmp = M1+;
 IdModule  = kicadlib:TEST_0.100;
 EndCmp
 
 BeginCmp
 TimeStamp = /54FC7D5F;
-Reference = P3;
+Reference = P11;
 ValeurCmp = M1-;
 IdModule  = kicadlib:TEST_0.100;
 EndCmp
 
 BeginCmp
 TimeStamp = /54FC7D8F;
-Reference = P4;
+Reference = P12;
 ValeurCmp = M2+;
 IdModule  = kicadlib:TEST_0.100;
 EndCmp
 
 BeginCmp
 TimeStamp = /54FC7DC0;
-Reference = P5;
+Reference = P13;
 ValeurCmp = M2-;
 IdModule  = kicadlib:TEST_0.100;
 EndCmp
