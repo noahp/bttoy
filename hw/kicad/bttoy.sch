@@ -572,7 +572,7 @@ L TST P1
 U 1 1 54FCC050
 P 1150 5900
 F 0 "P1" H 1150 6200 40  0000 C CNN
-F 1 "+9V_DBG" H 1150 6150 30  0000 C CNN
+F 1 "+9V" H 1150 6150 30  0000 C CNN
 F 2 "kicadlib:TEST_0.100" H 1150 5900 60  0001 C CNN
 F 3 "" H 1150 5900 60  0000 C CNN
 	1    1150 5900
@@ -963,24 +963,21 @@ Text Label 9050 3600 1    60   ~ 0
 dbg_led2
 Text Label 9400 3600 1    60   ~ 0
 dbg_led3
-Text Label 7650 2550 0    60   ~ 0
+Text Label 7050 900  1    60   ~ 0
 dgb_led1
-Text Label 7650 2400 0    60   ~ 0
+Text Label 6900 900  1    60   ~ 0
 dbg_led2
-Text Label 7650 2250 0    60   ~ 0
+Text Label 6750 900  1    60   ~ 0
 dbg_led3
 Wire Wire Line
-	7650 2250 7550 2250
+	6750 900  6750 1000
 Wire Wire Line
-	7550 2400 7650 2400
+	6900 1000 6900 900 
 Wire Wire Line
-	7650 2550 7550 2550
+	7050 900  7050 1000
 NoConn ~ 7550 2100
 NoConn ~ 7550 1950
 NoConn ~ 7550 1800
-NoConn ~ 7050 1000
-NoConn ~ 6900 1000
-NoConn ~ 6750 1000
 NoConn ~ 6600 1000
 NoConn ~ 6450 1000
 NoConn ~ 5500 1500
@@ -1201,4 +1198,7 @@ Wire Wire Line
 	5200 7500 5200 7400
 Text Notes 4700 7850 0    60   ~ 0
 Battery Connector
+NoConn ~ 7550 2250
+NoConn ~ 7550 2400
+NoConn ~ 7550 2550
 $EndSCHEMATC
