@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 4/21/2015 6:36:32 PM
+Cmp-Mod V01 Created by Cvpcb (after 2015-may-25 BZR unknown)-product   date = 9/14/2015 7:52:55 AM
 
 BeginCmp
 TimeStamp = /54EFD3D0;
@@ -120,9 +120,9 @@ IdModule  = kicadlib:SMD_4x4_INDUCTOR;
 EndCmp
 
 BeginCmp
-TimeStamp = /54FCC050;
+TimeStamp = /55F6C22E;
 Reference = P1;
-ValeurCmp = +9V_DBG;
+ValeurCmp = gnd;
 IdModule  = kicadlib:TEST_0.100;
 EndCmp
 
@@ -221,6 +221,13 @@ BeginCmp
 TimeStamp = /5536D57D;
 Reference = P15;
 ValeurCmp = B+;
+IdModule  = kicadlib:TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F6C2D8;
+Reference = P16;
+ValeurCmp = gnd;
 IdModule  = kicadlib:TEST_0.100;
 EndCmp
 
